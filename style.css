@@ -1,6 +1,6 @@
 * {
     font-family: 'Source Sans Pro', sans-serif, 'Inter', sans-serif;
-
+    padding: 0;
 }
 
 body {
@@ -11,13 +11,11 @@ body {
     background: #ffffff;
     display: flex;
     flex-direction: column;
-    margin-bottom: 65px;
 }
 
 section {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    margin: 265px 494px;
     width: 452px;
     height: 494px;
     border-radius: 40px;
@@ -90,6 +88,15 @@ section {
     left: 152px;
     top: 382px;
 
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: normal;
+    padding: 15px 38px;
+    color: #002766;
+
+
     background: #F8F7F7;
     box-shadow: -4px -4px 12px rgba(255, 255, 255, 0.75), 4px 4px 12px rgba(147, 147, 147, 0.25);
     border-radius: 60px;
@@ -111,4 +118,15 @@ input[type=Sign-In] {
     font-style: normal;
     font-weight: 400;
     color: #002766;
+}
+
+.ri-eye-off-fill {
+    Width: 21.99px;
+    Height: 19px;
+    color: #002766;
+    position: absolute;
+    left: 76.55%;
+    right: 18.59%;
+    top: 62.35%;
+    bottom: 33.81%;
 }
