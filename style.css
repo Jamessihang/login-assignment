@@ -1,0 +1,114 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif, 'Inter', sans-serif;
+
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
+}
+
+section {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 452px;
+    height: 494px;
+    border-radius: 40px;
+    background: #F8F7F7;
+    box-shadow: 4px 4px 12px rgba(146, 143, 143, 0.25), -4px -4px 12px rgba(255, 255, 255, 0.25);
+}
+
+.welcome {
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    left: 58px;
+    top: 78px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #002766;
+}
+
+.start {
+    position: absolute;
+    width: 119px;
+    height: 23px;
+    left: 65px;
+    top: 157px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #002766;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 336px;
+    height: 60px;
+    left: 58px;
+    top: 203px;
+
+    background: #F8F7F7;
+    box-shadow: inset -4px -4px 12px rgba(255, 255, 255, 0.75), inset 4px 4px 12px rgba(147, 147, 147, 0.25);
+    border-radius: 60px;
+    border: none;
+
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 336px;
+    height: 60px;
+    left: 58px;
+    top: 286px;
+
+    background: #F8F7F7;
+    box-shadow: inset -4px -4px 12px rgba(255, 255, 255, 0.75), inset 4px 4px 12px rgba(147, 147, 147, 0.25);
+    border-radius: 60px;
+    border: none;
+}
+
+.rectangle4 {
+    position: absolute;
+    width: 148px;
+    height: 60px;
+    left: 152px;
+    top: 382px;
+
+    background: #F8F7F7;
+    box-shadow: -4px -4px 12px rgba(255, 255, 255, 0.75), 4px 4px 12px rgba(147, 147, 147, 0.25);
+    border-radius: 60px;
+    border: none;
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 39, 102, 0.5);
+    padding: 24px;
+}
+
+input[type=Sign-In] {
+    font-size: 24px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: #002766;
+}
